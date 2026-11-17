@@ -17,7 +17,11 @@ An SCR is a four-layer PNPN semiconductor device having three terminals: anode, 
 Once the SCR is turned ON, it remains in the ON state even after the gate current is removed, provided the anode current remains above the holding current. When the anode current falls below the holding current for an appropriate period, the SCR switches OFF. A positive gate current can therefore be used to trigger the device into conduction.
 The SCR V-I characteristic consists of forward blocking, forward conduction and reverse blocking regions. In the forward blocking region, only a small leakage current flows. After triggering, the SCR enters the forward conduction region, where the current increases substantially while the voltage across the device is low. In reverse bias, only a small reverse leakage current flows until breakdown.
 5. PIN DIAGRAM / SYMBOL
-SCR terminals:  Anode (A)   |   Gate (G)   |   Cathode (K)
+
+6.SCR terminals:  Anode (A)   |   Gate (G)   |   Cathode (K)
+
+<img width="1367" height="780" alt="Screenshot 2026-11-17 213208" src="https://github.com/user-attachments/assets/8f2685a1-4fc3-4ccf-b623-8a9985e9ac7d" />
+
 
 7. CIRCUIT CONNECTION DIAGRAM:
 8. 
