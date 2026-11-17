@@ -18,13 +18,16 @@ Once the SCR is turned ON, it remains in the ON state even after the gate curren
 The SCR V-I characteristic consists of forward blocking, forward conduction and reverse blocking regions. In the forward blocking region, only a small leakage current flows. After triggering, the SCR enters the forward conduction region, where the current increases substantially while the voltage across the device is low. In reverse bias, only a small reverse leakage current flows until breakdown.
 5. PIN DIAGRAM / SYMBOL
 SCR terminals:  Anode (A)   |   Gate (G)   |   Cathode (K)
-6. CIRCUIT CONNECTION DIAGRAM:
+
+7. CIRCUIT CONNECTION DIAGRAM:
+8. 
 <img width="1917" height="1022" alt="Screenshot 2026-11-17 202322" src="https://github.com/user-attachments/assets/ccfb1726-0309-4d09-894c-0124db4079b1" />
 
-7. 
+9. 
 The main anode-cathode circuit consists of the regulated DC supply, a 1 kΩ series resistor, an ammeter and the SCR. A voltmeter is connected across the SCR to measure VAK. A separate regulated supply is connected through a 1 kΩ resistor to the gate, with a gate ammeter to measure IG.
  
 Reference circuit diagram from the supplied lab record.
+
 6. OUTPUT GRAPH:
 
 <img width="1912" height="1007" alt="Screenshot 2026-11-17 202501" src="https://github.com/user-attachments/assets/8199ab82-3a0c-4753-8898-24f4439e27ba" />
@@ -42,6 +45,8 @@ Reference characteristic curve from the supplied lab record.
 7. Reverse the anode supply polarity and vary the reverse voltage in steps. Note the corresponding reverse current values.
 8. Plot the forward and reverse characteristics using the tabulated values and determine the SCR forward resistance from the graph.
 9. Repeat the procedure for another suitable gate current (for example, IG = 1.2 mA) and verify the characteristics.
+10. 
  RESULT:
+
 Thus the phase control characteristics of SCR using LT-spice is stimulated and verified 
 
